@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    tools:context="com.example.myapplication.dtail_menu_activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="*">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="29dp"
+                            android:layout_height="match_parent"
+                            android:layout_span="2"
+                            android:padding="20dp"
+                            android:scaleType="centerInside"
+                            android:text="평점 4.5"
+                            android:textColor="@android:color/holo_orange_light"
+                            android:textSize="22sp" />
+
+                        <ImageButton
+                            android:id="@+id/call"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:layout_span="2"
+                            android:background="@android:drawable/dialog_holo_dark_frame"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/call" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="3dp"
+                            android:layout_span="4"
+                            android:background="@android:color/black"
+                            android:paddingLeft="15dp"
+                            android:text="메뉴"
+                            android:textColor="@android:color/background_light"
+                            android:textSize="20sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/pay"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_span="4"
+                            android:paddingLeft="15dp"
+                            android:text="가격등"
+                            android:textSize="20sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </TableRow>
+                </TableLayout>
+
+                <ImageView
+                    android:id="@+id/dtail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

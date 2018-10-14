@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <pyxis.uzuki.live.rollingbanner.RollingBanner
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                app:bottomMargin="@dimen/default_bottom_margin"
+                app:enableIndicator="false"
+                app:enableLooping="false"
+                app:enableRolling="false"
+                app:flingAble="true"
+                app:indicatorMargin="@dimen/default_indicator_margin"
+                app:rollingDelay="3000"
+                app:scrollingDelay="250"
+                app:smoothScroll="true" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="27dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <!--android:layout_weight="1">-->
+
+
+                    <ImageButton
+                        android:id="@+id/best_menu"
+                        android:layout_width="80dp"
+                        android:layout_height="107dp"
+                        android:background="@android:color/background_light"
+                        android:padding="0dip"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/best_menu" />
+
+                    <ImageButton
+                        android:id="@+id/cha"
+                        android:layout_width="80dp"
+                        android:layout_height="107dp"
+                        android:padding="0dip"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/cha" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <!--android:layout_weight = "1"-->
+
+                    <Button
+                        android:id="@+id/best_menu_bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_notibar_didit"
+                        android:text="추천메뉴"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+
+                    <Button
+                        android:id="@+id/cha_bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_notibar_didit"
+                        android:text="중국집"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <!--android:layout_weight="1">-->
+
+
+                    <ImageButton
+                        android:id="@+id/chicken"
+                        android:layout_width="80dp"
+                        android:layout_height="107dp"
+                        android:padding="0dip"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/chicken" />
+
+                    <ImageButton
+                        android:id="@+id/snack"
+                        android:layout_width="80dp"
+                        android:layout_height="107dp"
+                        android:padding="0dip"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/snack" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <!--android:layout_weight="1">-->
+
+                    <Button
+                        android:id="@+id/chicken_bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_notibar_didit"
+                        android:text="치킨"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/snack_bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_notibar_didit"
+                        android:text="분식"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <!--android:layout_weight = "1"-->
+
+                    <ImageButton
+                        android:id="@+id/japan"
+                        android:layout_width="80dp"
+                        android:layout_height="107dp"
+                        android:padding="0dip"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/japan_food" />
+
+                    <ImageButton
+                        android:id="@+id/korea"
+                        android:layout_width="80dp"
+                        android:layout_height="107dp"
+                        android:padding="0dip"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/korea_food" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <!--android:layout_weight = "1"-->
+                    <Button
+                        android:id="@+id/japan_bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_notibar_didit"
+                        android:text="일식"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/korea_bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_notibar_didit"
+                        android:text="한식"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="동명대학교 주소 : 부산광역시 남구 용당동 신선로 428" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

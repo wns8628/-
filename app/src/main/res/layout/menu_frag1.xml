@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_frame_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="27dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="3px">
+
+                    <ImageButton
+                        android:id="@+id/menu_1"
+                        android:layout_width="328dp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:padding="0dip"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/best_1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/menu_2"
+                        android:layout_width="328dp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:padding="0dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/best_2" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/menu_3"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:padding="0dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/best_3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/menu_4"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:padding="0dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/best_4" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/menu_5"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:padding="0dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/best_5" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
