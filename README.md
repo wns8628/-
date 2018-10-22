@@ -5,7 +5,7 @@
 
 
 ![kakaotalk_20181023_085626914](https://user-images.githubusercontent.com/26120409/47325993-b506ca80-d6a1-11e8-832f-9d494ae52e0a.png)
-앱구조
+<앱구조>
 ![kakaotalk_20181023_085627322](https://user-images.githubusercontent.com/26120409/47326003-bb954200-d6a1-11e8-9743-4e964a51fe63.png)
 ![kakaotalk_20181023_085625923](https://user-images.githubusercontent.com/26120409/47326004-bcc66f00-d6a1-11e8-88ea-89a44ac26e82.png)
 ![kakaotalk_20181023_085626258](https://user-images.githubusercontent.com/26120409/47326007-be903280-d6a1-11e8-9344-2725cfa677d9.png)
